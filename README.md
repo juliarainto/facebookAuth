@@ -76,5 +76,3 @@ npm -v
 ```
 Node version should be v.10.6.0 (or the newest)
 Npm version should be v.6.1.0 (or the newest)
-
-```
