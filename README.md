@@ -12,7 +12,7 @@ Client-side: HTML, CSS, JavaScript, jQuery
 
 Server-side: Node.js, Express
 
-Demo here: https://juliarainto.com/apps/facebookDemo
+Demo here: https://juliarainto.com/apps/facebookApp
 
 and here: https://juliarainto.com/apps/demoFaceSivu
 
