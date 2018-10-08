@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ADD Facebook IDs</title>
+  <link href="./content/css/style.css" rel="stylesheet" alt="">
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <script src="./content/js/jquery-3.3.1.min.js"></script>
+  <script src="./content/js/main.js"></script>
+  <script src="./content/js/sweetalert.min.js"></script>
+</head>
+
+<body>
+  <div class="content-col">
+    <h1>Add Facebook APP IDs</h1>
+    <div class="center-col">
+      <form>
+        <label for="pID">
+          <h3>pageID</h3>
+        </label>
+        <input type="text" id="pID" name="pageid" placeholder="Sivun pageID..">
+
+        <label for="cID">
+          <h3>clientID</h3>
+        </label>
+        <input type="text" id="cID" name="clientid" placeholder="Facebook APP clientID..">
+
+        <label for="cSecret">
+          <h3>clientSecret</h3>
+        </label>
+        <input type="text" id="cSecret" name="clientsecret" placeholder="Facebook APP clientSecret..">
+
+        <input id="uploadButton" type="button" value="Lähetä">
+        <div id='result'>
+
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,108 @@
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+}
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: white !important;
+}
+
+input[type="button"] {
+  width: 100%;
+  background-color: #b2d02a;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+input[type="text"],
+select:focus {
+  background-color: white !important;
+}
+input[type="text"],
+select:hover {
+  outline: none;
+  background-color: white !important;
+}
+input[type="text"]:focus {
+  border-bottom: 3px solid #569e95;
+}
+
+input[type="button"] {
+  background-color: #abc924;
+}
+
+.swal-button {
+  background-color: #60aea5;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.swal-button:hover {
+  background-color: #569e95;
+}
+
+#pID,
+#cID,
+#cSecret {
+  font-size: 1rem;
+}
+
+#result {
+  text-align: center;
+}
+.content-col {
+  width: 100%;
+  clear: both;
+  margin: 8% auto 1em auto;
+}
+.center-col {
+  width: 800px;
+  clear: both;
+  margin: 0 auto;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+@media (max-width: 870px) {
+  .center-col {
+    width: 600px;
+  }
+}
+@media (max-width: 670px) {
+  .center-col {
+    width: 400px;
+  }
+}
+@media (max-width: 470px) {
+  .center-col {
+    width: 250px;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+}
