@@ -1,7 +1,8 @@
 # facebookAuth
-Facebook APP authentication with passport and certification storing.
 
 This is Back end and certification storage to facebookDemoAPI.
+
+Facebook APP authentication with passport and certification storing.
 
 Application will use Facebook users own credentials and otherwise credentials that are inserted in the program.
 Application will store Facebook users pageIG, clientID and clientSecret to the server.
@@ -12,7 +13,7 @@ Client-side: HTML, CSS, JavaScript, jQuery
 Server-side: Node.js, Express
 
 Demo here: https://juliarainto.com/apps/facebookDemo
-Demo here: https://juliarainto.com/apps/demoFaceSivu
+and here: https://juliarainto.com/apps/demoFaceSivu
 
 ## Start application
 
